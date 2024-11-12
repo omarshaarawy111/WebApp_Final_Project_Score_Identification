@@ -3,15 +3,7 @@ import streamlit as st
 #import libraries that is going to be used in our project 
 import pandas as pd
 import numpy as np
-import seaborn as sns
-import plotly.express as px
-import matplotlib.pyplot as plt
-from sklearn.preprocessing import StandardScaler
-from sklearn.decomposition import PCA
-import category_encoders as ce
-import warnings
-warnings.filterwarnings('ignore')
-import pickle
+
 #function to authenticate user
 def authenticate_user(email, password):
     #super admin credentials
