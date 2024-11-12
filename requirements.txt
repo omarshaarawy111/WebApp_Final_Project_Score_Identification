@@ -1,9 +1,3 @@
 streamlit
 pandas
 numpy
-seaborn
-plotly
-matplotlib
-scikit-learn
-category_encoders
-pickle5  # For loading and saving pickle files if using Python 3.8+
