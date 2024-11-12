@@ -5,6 +5,7 @@ import pandas as pd
 import numpy as np
 import category_encoders as ce
 import pytest
+import streamlit
 #function to authenticate user
 def authenticate_user(email, password):
     #super admin credentials
