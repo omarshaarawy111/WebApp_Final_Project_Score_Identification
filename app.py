@@ -6,6 +6,7 @@ import numpy as np
 import category_encoders as ce
 import pytest
 import pickle
+from sklearn.preprocessing import StandardScaler
 #function to authenticate user
 def authenticate_user(email, password):
     #super admin credentials
