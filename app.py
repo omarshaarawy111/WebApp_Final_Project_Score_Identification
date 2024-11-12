@@ -3,7 +3,6 @@ import streamlit as st
 #import libraries that is going to be used in our project 
 import pandas as pd
 import numpy as np
-from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 import category_encoders as ce
 import warnings
