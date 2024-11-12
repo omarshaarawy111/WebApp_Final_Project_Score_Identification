@@ -3,3 +3,4 @@ pandas
 numpy
 category_encoders
 pytest
+pickle5
