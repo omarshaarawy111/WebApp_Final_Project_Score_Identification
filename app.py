@@ -6,7 +6,7 @@ import numpy as np
 import category_encoders as ce
 import pytest
 import pickle
-import plotly.express as px
+
 from sklearn.preprocessing import StandardScaler
 #function to authenticate user
 def authenticate_user(email, password):
