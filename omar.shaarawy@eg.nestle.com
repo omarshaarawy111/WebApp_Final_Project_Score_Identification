@@ -225,6 +225,8 @@ def main():
             #after successfull login
             if authenticate_user(email, password):
                 st.session_state.is_logged_in = True
+                st.success("Logged in successfully!")
+                st.rerun()
             else:
                 #after failed login
                 st.error("Wrong Email or password .")
